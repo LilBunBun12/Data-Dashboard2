@@ -1,0 +1,42 @@
+.Main-Container{
+  display:flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items:center
+
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Weather table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background-color: #e2e8f0; 
+  color: #2d3748; 
+  font-weight: bold;
+}
+
+img {
+  vertical-align: middle;
+}
