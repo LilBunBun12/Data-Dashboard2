@@ -40,3 +40,9 @@ th {
 img {
   vertical-align: middle;
 }
+
+table tbody tr:hover {
+  background-color: #3a3a3a;
+  color: #ffffff;
+  transform: scale(1.01);
+}
